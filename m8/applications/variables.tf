@@ -1,6 +1,6 @@
 
 variable "region" {
-  default = "us-east-1"
+  default = "eu-central-1"
 }
 
 # Consul variables
@@ -20,7 +20,7 @@ variable "consul_port" {
 variable "consul_datacenter" {
   type        = string
   description = "Name of the Consul datacenter"
-  default     = "dc1"
+  default     = "dc2"
 }
 
 
